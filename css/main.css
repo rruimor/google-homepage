@@ -19,24 +19,31 @@ a:hover {
 *	HEADER
 */
 
-.nav-header ul{
+.hbar {
+	position: fixed;
 	text-align: right;
+	font-size: 0.88em;
+	top: 2px;
+	right: 15px;
 }
 
-.nav-header li{
-	font-size: 0.9em;
+.header {
 	display: inline-block;
-	margin: 0 6px;
 }
 
-.nav-header-icon {
-
+.header a {
+	margin: 0 8px;
 }
 
-#notification-icon {
-
+.header-icons {
+	position: relative;
+	top: 4px;
+	left: -5px;
 }
 
+.header-icons img {
+	width: 18px;
+}
 
 #button-share {
 	padding: 6px 15px;
@@ -45,10 +52,12 @@ a:hover {
 	text-decoration: none;
 }
 
-#avatar-gplus {
+.header-avatar img {
 	border-radius: 50%;
-	width: 40px;
-	height: 40px;
+	width: 32px;
+	position: relative;
+	top: 9px;
+	left: -15px;
 }
 
 /*
