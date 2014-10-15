@@ -1,0 +1,109 @@
+/*
+*	GENERAL
+*/
+
+li {
+	list-style-type: none;
+}
+
+a {
+	color: #333;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+/*
+*	HEADER
+*/
+
+.nav-header ul{
+	text-align: right;
+}
+
+.nav-header li{
+	font-size: 0.9em;
+	display: inline-block;
+	margin: 0 6px;
+}
+
+.nav-header-icon {
+
+}
+
+#notification-icon {
+
+}
+
+
+#button-share {
+	padding: 6px 15px;
+	background: #EEE;
+	border-radius: 5%;
+	text-decoration: none;
+}
+
+#avatar-gplus {
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+}
+
+/*
+*	LOGO
+*/
+
+#logo {
+	background: url("../images/logo11w.png") no-repeat center; 
+	background-size: 269px 95px; 
+	height: 95px; 
+	width: 269px;
+}
+
+
+
+/*
+*	FOOTER
+*/
+
+.fbar {
+	min-width: 100%;
+	position: fixed;
+	bottom: 3px;
+	margin: -10px;
+	border-top: 0.1em solid #EEE;
+	background-color: #EEE;
+}
+
+.footer {
+	display: inline-block;
+	margin-top: -5px;
+}
+
+.footer li{
+	font-size: 0.9em;
+	display: inline-block;
+	margin: 0 15px;
+}
+
+.footer li a{
+	color: #666;
+}
+
+.left-footer {
+	float: left;
+}
+
+.left-footer ul{
+	padding-left: 15px;
+}
+
+.right-footer {
+	float: right;
+}
+
+.right-footer ul{
+	padding-right: 20px;
+}
