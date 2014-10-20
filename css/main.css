@@ -15,16 +15,23 @@ a:hover {
 	text-decoration: underline;
 }
 
+.content {
+	min-width: 600px;
+	padding-top: 65px;
+}
+
+
 /*
 *	HEADER
 */
+
 
 .hbar {
 	position: fixed;
 	text-align: right;
 	font-size: 0.88em;
 	top: 2px;
-	right: 15px;
+	right: 12px;
 }
 
 .header {
@@ -43,6 +50,12 @@ a:hover {
 
 .header-icons img {
 	width: 18px;
+	margin: 0 3px;
+	opacity: 0.5;
+}
+
+.header-icons img:hover {
+	opacity: 0.9;
 }
 
 #button-share {
@@ -52,12 +65,17 @@ a:hover {
 	text-decoration: none;
 }
 
+#button-share:hover {
+	background: #DDD;
+}
+
 .header-avatar img {
 	border-radius: 50%;
 	width: 32px;
 	position: relative;
-	top: 9px;
+	top: 12px;
 	left: -15px;
+	margin: 0 5px;
 }
 
 /*
@@ -71,7 +89,65 @@ a:hover {
 	width: 269px;
 }
 
+/*
+*	SEARCH FORM
+*/
 
+.search-form {
+	min-width: 550px;
+}
+
+
+
+.search-form-input-container {
+}
+
+.search-form-input-container input[type="text"] {
+	width: 530px;
+	height:25px;
+	margin: 0;
+	padding-right: 25px;
+	padding-left: 10px;
+	border: 1px solid rgba(100, 100 , 100, 0.3);
+}
+
+.search-form-input-container input[type="text"]:hover{
+	border: 1px solid rgba(150, 150 , 150, 0.7);
+}
+
+.voice-search {
+	display: inline-block;
+	position: relative;
+	left: -25px;
+	top: 5px;
+}
+
+.voice-search #mic-icon {
+	height: 18px;
+	opacity: 0.6;
+}
+
+.voice-search #mic-icon:hover {
+	opacity: 0.9;
+}
+
+.search-form-buttons{
+	margin: 20px;
+}
+
+.search-form-buttons button{
+	font-size: 0.65em;
+	font-weight: bold;
+	margin: 0 9px;
+	padding: 8px;
+	border: 1px solid rgba(180, 180 , 180, 0.25);
+	border-radius: 5%;
+	background: #EEE;
+}
+
+.search-form-buttons button:hover{
+	border: 1px solid rgba(150, 150 , 150, 0.5);
+}
 
 /*
 *	FOOTER
